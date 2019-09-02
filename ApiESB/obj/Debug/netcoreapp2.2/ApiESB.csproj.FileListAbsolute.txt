@@ -1,0 +1,14 @@
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\bin\Debug\netcoreapp2.2\ApiESB.deps.json
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\bin\Debug\netcoreapp2.2\ApiESB.runtimeconfig.json
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\bin\Debug\netcoreapp2.2\ApiESB.runtimeconfig.dev.json
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\bin\Debug\netcoreapp2.2\ApiESB.dll
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\bin\Debug\netcoreapp2.2\ApiESB.pdb
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\obj\Debug\netcoreapp2.2\ApiESB.csprojAssemblyReference.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\obj\Debug\netcoreapp2.2\ApiESB.csproj.CoreCompileInputs.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\obj\Debug\netcoreapp2.2\ApiESB.RazorAssemblyInfo.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\obj\Debug\netcoreapp2.2\ApiESB.RazorAssemblyInfo.cs
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\obj\Debug\netcoreapp2.2\ApiESB.AssemblyInfoInputs.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\obj\Debug\netcoreapp2.2\ApiESB.AssemblyInfo.cs
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\obj\Debug\netcoreapp2.2\ApiESB.RazorTargetAssemblyInfo.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\obj\Debug\netcoreapp2.2\ApiESB.dll
+D:\PruebaConcepto\Apis\ApiESB\ApiESB\obj\Debug\netcoreapp2.2\ApiESB.pdb
