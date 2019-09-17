@@ -1,0 +1,23 @@
+{
+    "ReRoutes": [
+        {
+            "DownstreamPathTemplate": "/Esb/TaxId",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5000
+                }
+            ],
+            "UpstreamPathTemplate": "/apiCustumer/DocId",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "IdentityApiKey",
+                "AllowedScopes": []
+            }
+        }
+    ],
+    "GlobalcConfiguration": {
+      "RequestIdKey": "OcRequestId",
+      "AdministrationPath": "/administration"
+    }
+}

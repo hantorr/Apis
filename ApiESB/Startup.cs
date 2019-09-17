@@ -1,56 +1,101 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Ocelot.DependencyInjection;
-using IdentityServer4;
 using Ocelot.Middleware;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+
 
 namespace ApiESB
 {
     public class Startup
     {
 
-         public Startup(IConfiguration configuration)
-         {
-            Configuration = configuration;
-         }
+         public void ConfigureServices(IServiceCollection services)
+            {
+                services.AddMvcCore()
+                    .AddAuthorization()
+                    .AddJsonFormatters();
 
-        public IConfiguration Configuration { get; }
+                services.AddAuthentication("Bearer")
+                    .AddJwtBearer("Bearer", options =>
+                    {
+                        options.Authority = "http://localhost:5000";
+                        options.RequireHttpsMetadata = false;
+
+                        options.Audience = "customerApi";
+                    });
+            }
+
+            public void Configure(IApplicationBuilder app)
+            {
+                app.UseAuthentication();
+
+                app.UseMvc();
+            }
+
+       /* private readonly IConfiguration _cfg;
+        public Startup(IConfiguration configuration)
+        {
+            _cfg = configuration;
+        }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           /*  var identityUrl = _cfg.GetValue<string>("IdentityUrl");
-             var authenticationProviderKey = "IdentityApiKey";
+            var identityUrl = _cfg.GetValue<String>("IdentityUrl");
+            var authenticationProviderKey = "IdentityApiKey";
 
-           services.AddAuthentication()
-                .AddJwtBearer(authenticationProviderKey, x =>
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .SetIsOriginAllowed((host) => true)
+                    .AllowCredentials());
+            });
+
+            services.AddAuthentication().AddJwtBearer(authenticationProviderKey, x =>
+            {
+                x.Authority = identityUrl;
+                x.RequireHttpsMetadata = false;
+                x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
                 {
-                    x.Authority = identityUrl;
-                    x.RequireHttpsMetadata = false;
-                    x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                    ValidAudiences = new[] { "custumer" }
+                };
+             x.Events = new Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents()
                     {
-                        ValidAudiences = new[] { "custumer" }
+                        OnAuthenticationFailed = async ctx =>
+                        {
+                            int i = 0;
+                        },
+                        OnTokenValidated = async ctx =>
+                        {
+                            int i = 0;
+                        },
+
+                        OnMessageReceived = async ctx =>
+                        {
+                            int i = 0;
+                        }
                     };
-                }); */
+            });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddOcelot(Configuration);
+            services.AddOcelot(_cfg);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public async void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
+            app.UseCors("CorsPolicy");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -64,5 +109,6 @@ namespace ApiESB
             app.UseMvc();
             await app.UseOcelot();
         }
+        */
     }
 }

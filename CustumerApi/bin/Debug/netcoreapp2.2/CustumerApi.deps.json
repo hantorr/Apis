@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "CustumerApi/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore": "2.2.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0"
