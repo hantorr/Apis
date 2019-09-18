@@ -28,7 +28,7 @@ namespace IdentityServer
         public static IEnumerable<Client> GetClients()
         {
             return new List<Client>
-    {
+        {
         new Client
         {
             ClientId = "client",

@@ -411,3 +411,11 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address 
 {"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"customerApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"customerApi","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
 2019-09-18 08:42:55.692 -05:00 [DBG] Getting claims for access token for client: client
 2019-09-18 08:42:55.700 -05:00 [DBG] Token request success.
+2019-09-18 17:00:29.694 -05:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-09-18 17:00:29.805 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-09-18 17:00:29.912 -05:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-09-18 17:00:29.933 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-09-18 17:00:29.939 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-09-18 17:00:29.947 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-09-18 17:00:29.962 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-09-18 17:00:29.976 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid

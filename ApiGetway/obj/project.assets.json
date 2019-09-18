@@ -12575,11 +12575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiESB\\ApiESB.csproj",
-      "projectName": "ApiESB",
-      "projectPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiESB\\ApiESB.csproj",
+      "projectUniqueName": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj",
+      "projectName": "ApiGetway",
+      "projectPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj",
       "packagesPath": "C:\\Users\\hantorr\\.nuget\\packages\\",
-      "outputPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiESB\\obj\\",
+      "outputPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

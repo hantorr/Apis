@@ -1,0 +1,14 @@
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.deps.json
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.runtimeconfig.json
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.runtimeconfig.dev.json
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.dll
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.pdb
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.csprojAssemblyReference.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.csproj.CoreCompileInputs.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.RazorAssemblyInfo.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.RazorAssemblyInfo.cs
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.AssemblyInfoInputs.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.AssemblyInfo.cs
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.RazorTargetAssemblyInfo.cache
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.dll
+D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.pdb

@@ -43,7 +43,7 @@ namespace Client
             var apiClient = new HttpClient();
             apiClient.SetBearerToken(tokenResponse.AccessToken);
 
-            var response = await apiClient.GetAsync("http://localhost:5001/Esb/TaxId");
+            var response = await apiClient.GetAsync("http://localhost:7000/apiCustumer/DocId");
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);

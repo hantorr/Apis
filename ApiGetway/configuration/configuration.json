@@ -1,0 +1,29 @@
+{
+    "ReRoutes": [
+        {
+            "DownstreamPathTemplate": "/Esb/TaxId",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5001
+                }
+            ],
+            "UpstreamPathTemplate": "/apiCustumer/DocId",
+            "UpstreamHttpMethod": [
+                "Get"
+            ],
+            "RateLimitOptions": {
+                "ClientWhitelist": [],
+                "EnableRateLimiting": true,
+                "Period": "1s",
+                "PeriodTimespan": 1,
+                "Limit": 1
+            }
+        }
+    ],
+    "GlobalcConfiguration": {
+        "RequestIdKey": "OcRequestId",
+        "AdministrationPath": "/administration"
+    }
+}

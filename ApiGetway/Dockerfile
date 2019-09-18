@@ -8,16 +8,16 @@ EXPOSE 443
 
 FROM microsoft/dotnet:2.2-sdk-nanoserver-1803 AS build
 WORKDIR /src
-COPY ["ApiESB/ApiESB.csproj", "ApiESB/"]
+COPY ["ApiGetway/ApiESB.csproj", "ApiESB/"]
 RUN dotnet restore "ApiESB/ApiESB.csproj"
 COPY . .
-WORKDIR "/src/ApiESB"
-RUN dotnet build "ApiESB.csproj" -c Release -o /app
+WORKDIR "/src/ApiGetway"
+RUN dotnet build "ApiGetway.csproj" -c Release -o /app
 
 FROM build AS publish
-RUN dotnet publish "ApiESB.csproj" -c Release -o /app
+RUN dotnet publish "ApiGetway.csproj" -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "ApiESB.dll"]
+ENTRYPOINT ["dotnet", "ApiGetway.dll"]
