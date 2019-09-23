@@ -10,39 +10,54 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
-namespace ProductsApi
-{
-    public class Startup
-    {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
+namespace ProductsApi {
+    public class Startup {
+
+
+        public void ConfigureServices (IServiceCollection services) {
+
+            services.AddMvcCore ()
+                .AddAuthorization ()
+                .AddJsonFormatters ();
+            
+            services.AddCors (options => {
+                options.AddPolicy ("CorsPolicy",
+                    builder => builder
+                    .SetIsOriginAllowed ((host) => true)
+                    .AllowAnyMethod ()
+                    .AllowAnyHeader ()
+                    .AllowCredentials ());
+            });
+
+            ConfigureAuthService (services);
+
         }
 
-        public IConfiguration Configuration { get; }
+        public void Configure (IApplicationBuilder app) {
+            app.UseAuthentication ();
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            app.UseMvc ();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+        private void ConfigureAuthService (IServiceCollection services) {
+            var identityUrl = "http://localhost:5000";
+            
+            // prevent from mapping "sub" claim to nameidentifier.
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear ();
 
-            app.UseHttpsRedirection();
-            app.UseMvc();
+            services.AddAuthentication (options => {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+            
+            }).AddJwtBearer (options => {
+                options.Authority = identityUrl;
+                options.Audience = "productApi";
+                options.RequireHttpsMetadata = false;
+            });
         }
     }
 }

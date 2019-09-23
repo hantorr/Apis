@@ -19,33 +19,40 @@ namespace IdentityServer
 
         public static IEnumerable<ApiResource> GetApis()
         {
+            // tabla Apis
             return new List<ApiResource>
             {
-                new ApiResource("customerApi", "Api Customer")
+                new ApiResource("customerApi", "Api Customer"),
+                new ApiResource("productApi", "Api Product")
             };
         }
 
+
+        //tabla para obtener los registros asociados al cliente
+        //ClientId y lo relaciona con los accesos AllowedScopes
         public static IEnumerable<Client> GetClients()
         {
             return new List<Client>
-        {
-        new Client
-        {
-            ClientId = "client",
-
-            // no interactive user, use the clientid/secret for authentication
-            AllowedGrantTypes = GrantTypes.ClientCredentials,
-
-            // secret for authentication
-            ClientSecrets =
             {
-                new Secret("secret".Sha256())
-            },
-
-            // scopes that client has access to
-            AllowedScopes = { "customerApi" }
-        }
-    };
-        }
+                new Client
+                    {
+                        ClientId = "client",
+                        // no interactive user, use the clientid/secret for authentication
+                        AllowedGrantTypes = GrantTypes.ClientCredentials,
+                        // secret for authentication
+                        ClientSecrets =
+                        {
+                            new Secret("secret".Sha512())
+                        },
+                        AllowAccessTokensViaBrowser = true,
+                        // scopes that client has access to
+                        AllowedScopes = 
+                        { 
+                          "customerApi",
+                          "productApi"
+                        }
+                    }
+            };
+       }
     }
 }

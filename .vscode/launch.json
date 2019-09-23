@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/CustumerApi/bin/Debug/netcoreapp2.2/CustumerApi.dll",
+            "program": "${workspaceFolder}/Client/bin/Debug/netcoreapp2.2/Client.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/CustumerApi",
+            "cwd": "${workspaceFolder}/Client",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",

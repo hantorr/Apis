@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Microsoft.Extensions.Logging;
 
 namespace ApiGetway {
     public class Program {
@@ -27,8 +28,11 @@ namespace ApiGetway {
                 .ConfigureServices (s => {
                     s.AddOcelot ();
                 })
-                .ConfigureLogging ((hostingContext, logging) => {
-                    //add your logging
+                 .ConfigureLogging((hostingContext, loggingbuilder) =>
+                {
+                    loggingbuilder.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                    loggingbuilder.AddConsole();
+                    loggingbuilder.AddDebug();
                 })
                 .UseIISIntegration ()
                 .Configure (app => {
@@ -38,21 +42,6 @@ namespace ApiGetway {
             return host;
         }
 
-        /*public static IWebHost CreateWebHostBuilder(string[] args)
-        {
-
-            var builder = WebHost.CreateDefaultBuilder(args);
-
-            builder.ConfigureServices(s => s.AddSingleton(builder))
-            .ConfigureAppConfiguration(
-                    ic => ic.AddJsonFile(Path.Combine("configuration", "configuration.json"))
-            ).UseStartup<Startup>();
-
-            IWebHost host = builder.Build();
-            return host;
-        
-
-        }*/
 
     }
 }

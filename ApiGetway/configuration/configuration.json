@@ -20,6 +20,27 @@
                 "PeriodTimespan": 1,
                 "Limit": 1
             }
+        },
+        {
+            "DownstreamPathTemplate": "/Esb/CustumerId",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5002
+                }
+            ],
+            "UpstreamPathTemplate": "/apiProduct/CustumerId",
+            "UpstreamHttpMethod": [
+                "Get"
+            ],
+            "RateLimitOptions": {
+                "ClientWhitelist": [],
+                "EnableRateLimiting": true,
+                "Period": "1s",
+                "PeriodTimespan": 1,
+                "Limit": 1
+            }
         }
     ],
     "GlobalcConfiguration": {

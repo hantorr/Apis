@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Client
 {
-    class Program
+    class Program1
     {
-         private static async Task Main()
+        private static async Task Main()
         {
             // discover endpoints from metadata
             var client = new HttpClient();
 
-            var disco = await client.GetDiscoveryDocumentAsync("http://localhost:5000");
+            var disco = await client.GetDiscoveryDocumentAsync("http://localhost:7000");
             if (disco.IsError)
             {
                 Console.WriteLine(disco.Error);
@@ -27,7 +27,7 @@ namespace Client
                 ClientId = "client",
                 ClientSecret = "secret",
 
-                Scope = "customerApi"
+                Scope = "productApi"
             });
             
             if (tokenResponse.IsError)
@@ -43,7 +43,7 @@ namespace Client
             var apiClient = new HttpClient();
             apiClient.SetBearerToken(tokenResponse.AccessToken);
 
-            var response = await apiClient.GetAsync("http://localhost:7000/apiCustumer/DocId");
+            var response = await apiClient.GetAsync("http://localhost:7000/apiProduct/CustumerId");
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);

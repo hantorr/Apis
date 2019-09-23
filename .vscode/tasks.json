@@ -9,7 +9,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/CustumerApi/CustumerApi.csproj",
+                "${workspaceFolder}/Client/Client.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -21,7 +21,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/CustumerApi/CustumerApi.csproj",
+                "${workspaceFolder}/Client/Client.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -34,7 +34,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/CustumerApi/CustumerApi.csproj",
+                "${workspaceFolder}/Client/Client.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
