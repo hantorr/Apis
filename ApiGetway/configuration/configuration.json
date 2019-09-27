@@ -41,7 +41,18 @@
                 "PeriodTimespan": 1,
                 "Limit": 1
             }
-        }
+        },
+        {
+            "DownstreamPathTemplate": "/connect/token",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+              {
+                "Host": "localhost",
+                "Port": 5000
+              }
+            ],
+            "UpstreamPathTemplate": "/connect/{AUTH}"
+          }    
     ],
     "GlobalcConfiguration": {
         "RequestIdKey": "OcRequestId",

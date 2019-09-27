@@ -7,13 +7,13 @@ namespace Client
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Test client for Ocelot, IdentityServer4, and an internal ASP.NET Core 2.1 API");
-            Console.WriteLine(Environment.NewLine);
+        // static void Main(string[] args)
+        // {
+        //     Console.WriteLine("Test client for Ocelot, IdentityServer4, and an internal ASP.NET Core 2.1 API");
+        //     Console.WriteLine(Environment.NewLine);
 
-            MainAsync().GetAwaiter().GetResult();
-        }
+        //     MainAsync().GetAwaiter().GetResult();
+        // }
 
        private static async Task MainAsync()
         {
@@ -22,11 +22,12 @@ namespace Client
                 Console.WriteLine("Calling IdentityServer4 discovery endpoint...");
                 Console.WriteLine(Environment.NewLine);
 
-                var discoveryUrl = "http://localhost:5000";
+                var discoveryUrl = "http://localhost:7000";
                 var clientId = "client";
                 var clientSecret = "secret";
                 var discoveryClient = new DiscoveryClient(discoveryUrl);
                 var discoveryResponse = await discoveryClient.GetAsync();
+               
                 if (discoveryResponse.IsError)
                 {
                     throw new Exception("Failed to get discovery response!");
