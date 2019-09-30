@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj": {}
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj": {}
   },
   "projects": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj": {
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj",
+        "projectUniqueName": "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj",
         "projectName": "IdentityServer",
-        "projectPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj",
+        "projectPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj",
         "packagesPath": "C:\\Users\\hantorr\\.nuget\\packages\\",
-        "outputPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\obj\\",
+        "outputPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

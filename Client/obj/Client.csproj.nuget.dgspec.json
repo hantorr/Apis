@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\Client\\Client.csproj": {}
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\Client\\Client.csproj": {}
   },
   "projects": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\Client\\Client.csproj": {
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PruebaConcepto\\Apis\\ApiESB\\Client\\Client.csproj",
+        "projectUniqueName": "d:\\PruebaConcepto\\Apis\\ApiESB\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\Client\\Client.csproj",
+        "projectPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\hantorr\\.nuget\\packages\\",
-        "outputPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\Client\\obj\\",
+        "outputPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

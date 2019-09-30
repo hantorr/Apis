@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\CustumerApi.csproj": {}
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\CustumerApi.csproj": {}
   },
   "projects": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\CustumerApi.csproj": {
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\CustumerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\CustumerApi.csproj",
+        "projectUniqueName": "d:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\CustumerApi.csproj",
         "projectName": "CustumerApi",
-        "projectPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\CustumerApi.csproj",
+        "projectPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\CustumerApi.csproj",
         "packagesPath": "C:\\Users\\hantorr\\.nuget\\packages\\",
-        "outputPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\obj\\",
+        "outputPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\CustumerApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

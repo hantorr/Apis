@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\ProductsApi.csproj": {}
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\ProductsApi.csproj": {}
   },
   "projects": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\ProductsApi.csproj": {
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\ProductsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\ProductsApi.csproj",
+        "projectUniqueName": "d:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\ProductsApi.csproj",
         "projectName": "ProductsApi",
-        "projectPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\ProductsApi.csproj",
+        "projectPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\ProductsApi.csproj",
         "packagesPath": "C:\\Users\\hantorr\\.nuget\\packages\\",
-        "outputPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\obj\\",
+        "outputPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\ProductsApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

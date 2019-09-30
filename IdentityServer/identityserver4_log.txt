@@ -670,3 +670,526 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address 
 2019-09-27 12:04:23.836 -05:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
 2019-09-27 12:04:23.839 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
 2019-09-27 12:04:23.857 -05:00 [DBG] Start discovery request
+2019-09-27 14:41:47.046 -05:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-09-27 14:41:47.061 -05:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-09-27 14:41:47.064 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-09-27 14:41:47.066 -05:00 [DBG] Start discovery request
+2019-09-27 14:44:02.499 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 14:44:02.600 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 14:44:02.602 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 14:44:02.646 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 14:46:19.124 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 14:46:19.131 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 14:46:19.154 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 14:46:19.197 -05:00 [DBG] Start token request.
+2019-09-27 14:46:19.232 -05:00 [DBG] Start client validation
+2019-09-27 14:46:19.248 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 14:46:19.275 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 14:46:19.379 -05:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-27 14:46:19.390 -05:00 [DBG] Secret id found: client
+2019-09-27 14:46:19.436 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 14:46:19.480 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 14:46:19.482 -05:00 [DBG] Client validation success
+2019-09-27 14:46:19.520 -05:00 [DBG] Start token request validation
+2019-09-27 14:46:19.544 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 14:46:19.608 -05:00 [DBG] client credentials token request validation success
+2019-09-27 14:46:19.658 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"productApi","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-09-27 14:46:19.938 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 14:46:20.877 -05:00 [DBG] Token request success.
+2019-09-27 14:47:50.492 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 14:47:50.573 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 14:47:50.579 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 14:47:50.592 -05:00 [DBG] Start token request.
+2019-09-27 14:47:50.594 -05:00 [DBG] Start client validation
+2019-09-27 14:47:50.614 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 14:47:50.623 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 14:47:50.630 -05:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-27 14:47:50.633 -05:00 [DBG] Secret id found: client
+2019-09-27 14:47:50.636 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 14:47:50.642 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 14:47:50.647 -05:00 [DBG] Client validation success
+2019-09-27 14:47:50.651 -05:00 [DBG] Start token request validation
+2019-09-27 14:47:50.656 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 14:47:50.659 -05:00 [DBG] client credentials token request validation success
+2019-09-27 14:47:50.662 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"productApi","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-09-27 14:47:50.675 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 14:47:50.684 -05:00 [DBG] Token request success.
+2019-09-27 15:06:45.386 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:06:45.583 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:06:45.618 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:06:45.636 -05:00 [DBG] Start token request.
+2019-09-27 15:06:45.644 -05:00 [DBG] Start client validation
+2019-09-27 15:06:45.648 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 15:06:45.656 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 15:06:45.663 -05:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-27 15:06:45.694 -05:00 [DBG] Secret id found: client
+2019-09-27 15:06:45.699 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 15:06:45.707 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 15:06:45.710 -05:00 [DBG] Client validation success
+2019-09-27 15:06:45.712 -05:00 [DBG] Start token request validation
+2019-09-27 15:06:45.714 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 15:06:45.717 -05:00 [DBG] client credentials token request validation success
+2019-09-27 15:06:45.724 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"productApi","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-09-27 15:06:45.735 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 15:06:45.743 -05:00 [DBG] Token request success.
+2019-09-27 15:07:27.986 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:07:28.193 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:07:28.212 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:07:28.216 -05:00 [DBG] Start token request.
+2019-09-27 15:07:28.219 -05:00 [DBG] Start client validation
+2019-09-27 15:07:28.222 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 15:07:28.224 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 15:07:28.227 -05:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-27 15:07:28.234 -05:00 [DBG] Secret id found: client
+2019-09-27 15:07:28.235 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 15:07:28.240 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 15:07:28.242 -05:00 [DBG] Client validation success
+2019-09-27 15:07:28.245 -05:00 [DBG] Start token request validation
+2019-09-27 15:07:28.251 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 15:07:28.268 -05:00 [DBG] client credentials token request validation success
+2019-09-27 15:07:28.297 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"productApi","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-09-27 15:07:28.338 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 15:07:28.347 -05:00 [DBG] Token request success.
+2019-09-27 15:08:08.359 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:08:08.362 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:08:08.364 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:08:08.366 -05:00 [DBG] Start token request.
+2019-09-27 15:08:08.367 -05:00 [DBG] Start client validation
+2019-09-27 15:08:08.369 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 15:08:08.370 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 15:08:08.373 -05:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-27 15:08:08.509 -05:00 [DBG] Secret id found: client
+2019-09-27 15:08:08.539 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 15:08:08.846 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 15:08:08.876 -05:00 [DBG] Client validation success
+2019-09-27 15:08:08.890 -05:00 [DBG] Start token request validation
+2019-09-27 15:08:08.895 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 15:08:08.906 -05:00 [DBG] client credentials token request validation success
+2019-09-27 15:08:08.916 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"productApi","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-09-27 15:08:09.013 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 15:08:09.050 -05:00 [DBG] Token request success.
+2019-09-27 15:12:06.802 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:12:06.805 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:12:06.810 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:12:06.813 -05:00 [DBG] Start token request.
+2019-09-27 15:12:06.816 -05:00 [DBG] Start client validation
+2019-09-27 15:12:06.824 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 15:12:06.826 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 15:12:06.829 -05:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-27 15:12:06.831 -05:00 [DBG] Secret id found: client
+2019-09-27 15:12:06.834 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 15:12:06.837 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 15:12:06.839 -05:00 [DBG] Client validation success
+2019-09-27 15:12:06.841 -05:00 [DBG] Start token request validation
+2019-09-27 15:12:06.844 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 15:12:06.849 -05:00 [DBG] client credentials token request validation success
+2019-09-27 15:12:06.852 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"productApi","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-09-27 15:12:06.865 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 15:12:06.906 -05:00 [DBG] Token request success.
+2019-09-27 15:12:19.117 -05:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-09-27 15:12:19.145 -05:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-09-27 15:12:19.164 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-09-27 15:12:19.197 -05:00 [DBG] Start discovery request
+2019-09-27 15:12:19.569 -05:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-09-27 15:12:19.584 -05:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-09-27 15:12:19.598 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-09-27 15:12:19.617 -05:00 [DBG] Start key discovery request
+2019-09-27 15:12:57.467 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:12:57.476 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:12:57.486 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:12:57.500 -05:00 [DBG] Start token request.
+2019-09-27 15:12:57.513 -05:00 [DBG] Start client validation
+2019-09-27 15:12:57.546 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 15:12:57.569 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 15:12:57.577 -05:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-27 15:12:57.589 -05:00 [DBG] Secret id found: client
+2019-09-27 15:12:57.600 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 15:12:57.611 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 15:12:57.616 -05:00 [DBG] Client validation success
+2019-09-27 15:12:57.622 -05:00 [DBG] Start token request validation
+2019-09-27 15:12:57.627 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 15:12:57.636 -05:00 [DBG] client credentials token request validation success
+2019-09-27 15:12:57.641 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"productApi","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-09-27 15:12:57.660 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 15:12:57.671 -05:00 [DBG] Token request success.
+2019-09-27 15:46:02.795 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:46:02.802 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:46:02.804 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:46:02.809 -05:00 [DBG] Start token request.
+2019-09-27 15:46:02.814 -05:00 [DBG] Start client validation
+2019-09-27 15:46:02.853 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 15:46:03.147 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 15:46:03.170 -05:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-27 15:46:03.176 -05:00 [DBG] Secret id found: client
+2019-09-27 15:46:03.184 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 15:46:03.187 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 15:46:03.195 -05:00 [DBG] Client validation success
+2019-09-27 15:46:03.199 -05:00 [DBG] Start token request validation
+2019-09-27 15:46:03.202 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 15:46:03.205 -05:00 [DBG] client credentials token request validation success
+2019-09-27 15:46:03.210 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"productApi","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-09-27 15:46:03.222 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 15:46:03.232 -05:00 [DBG] Token request success.
+2019-09-27 15:49:21.307 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:49:21.780 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:49:21.859 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:49:21.881 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 15:52:54.941 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:52:54.949 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:52:54.952 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:52:54.955 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 15:55:02.532 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:55:02.563 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:55:02.572 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:55:02.579 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 15:57:42.249 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:57:42.260 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:57:42.264 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:57:42.266 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 15:58:18.093 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:58:18.109 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:58:18.113 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:58:18.121 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 15:59:06.854 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:59:06.880 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:59:06.885 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:59:06.892 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 15:59:23.968 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:59:23.979 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:59:23.982 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:59:23.988 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 15:59:50.455 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 15:59:50.462 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 15:59:50.488 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 15:59:50.492 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 16:02:40.588 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:02:54.531 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:02:54.543 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:02:54.558 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 16:03:39.761 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:03:45.761 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:03:45.770 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:03:45.778 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 16:03:57.276 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:04:00.134 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:04:00.304 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:04:00.372 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 16:06:38.295 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:06:38.305 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:06:38.312 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:06:38.319 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 16:09:01.030 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:09:01.033 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:09:01.036 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:09:01.039 -05:00 [DBG] Start token request.
+2019-09-27 16:09:01.041 -05:00 [DBG] Start client validation
+2019-09-27 16:09:01.044 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 16:09:01.047 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 16:09:01.049 -05:00 [DBG] Secret id found: client
+2019-09-27 16:09:01.052 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 16:09:01.056 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 16:09:01.058 -05:00 [DBG] Client validation success
+2019-09-27 16:09:01.060 -05:00 [DBG] Start token request validation
+2019-09-27 16:09:01.062 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 16:09:06.692 -05:00 [DBG] client credentials token request validation success
+2019-09-27 16:09:06.707 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"customerApi productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials"},"$type":"TokenRequestValidationLog"}
+2019-09-27 16:09:06.766 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 16:09:06.800 -05:00 [DBG] Token request success.
+2019-09-27 16:26:02.637 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:26:02.672 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:26:02.702 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:26:02.739 -05:00 [DBG] Start token request.
+2019-09-27 16:26:02.742 -05:00 [DBG] Start client validation
+2019-09-27 16:26:02.745 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 16:26:02.748 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 16:26:02.749 -05:00 [DBG] Secret id found: client
+2019-09-27 16:26:02.766 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 16:26:02.801 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 16:26:02.804 -05:00 [DBG] Client validation success
+2019-09-27 16:26:02.807 -05:00 [DBG] Start token request validation
+2019-09-27 16:26:02.808 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 16:26:02.815 -05:00 [DBG] client credentials token request validation success
+2019-09-27 16:26:02.819 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"customerApi productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials"},"$type":"TokenRequestValidationLog"}
+2019-09-27 16:26:02.828 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 16:26:02.837 -05:00 [DBG] Token request success.
+2019-09-27 16:26:05.114 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:26:05.143 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:26:05.195 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:26:05.215 -05:00 [DBG] Start token request.
+2019-09-27 16:26:05.219 -05:00 [DBG] Start client validation
+2019-09-27 16:26:05.221 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 16:26:05.225 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 16:26:05.227 -05:00 [DBG] Secret id found: client
+2019-09-27 16:26:05.231 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 16:26:05.252 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 16:26:05.275 -05:00 [DBG] Client validation success
+2019-09-27 16:26:05.278 -05:00 [DBG] Start token request validation
+2019-09-27 16:26:05.281 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 16:26:05.294 -05:00 [DBG] client credentials token request validation success
+2019-09-27 16:26:05.314 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"customerApi productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials"},"$type":"TokenRequestValidationLog"}
+2019-09-27 16:26:05.369 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 16:26:05.393 -05:00 [DBG] Token request success.
+2019-09-27 16:47:46.843 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:47:46.874 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:47:46.890 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:47:46.893 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 16:50:14.838 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:50:14.852 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:50:14.867 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:50:14.912 -05:00 [DBG] Start token request.
+2019-09-27 16:50:14.915 -05:00 [DBG] Start client validation
+2019-09-27 16:50:14.918 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 16:50:14.922 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 16:50:14.945 -05:00 [DBG] No secret in post body found
+2019-09-27 16:50:14.949 -05:00 [DBG] Parser found no secret
+2019-09-27 16:50:14.951 -05:00 [ERR] No client identifier found
+2019-09-27 16:50:51.151 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:50:51.167 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:50:51.191 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:50:51.194 -05:00 [DBG] Start token request.
+2019-09-27 16:50:51.196 -05:00 [DBG] Start client validation
+2019-09-27 16:50:51.199 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 16:50:51.218 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 16:50:51.241 -05:00 [DBG] No secret in post body found
+2019-09-27 16:50:51.243 -05:00 [DBG] Parser found no secret
+2019-09-27 16:50:51.245 -05:00 [ERR] No client identifier found
+2019-09-27 16:52:19.325 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:52:19.333 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:52:19.338 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:52:19.341 -05:00 [DBG] Start token request.
+2019-09-27 16:52:19.343 -05:00 [DBG] Start client validation
+2019-09-27 16:52:19.346 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 16:52:19.349 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 16:52:19.376 -05:00 [DBG] No secret in post body found
+2019-09-27 16:52:19.379 -05:00 [DBG] Parser found no secret
+2019-09-27 16:52:19.385 -05:00 [ERR] No client identifier found
+2019-09-27 16:52:57.145 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:52:57.151 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:52:57.171 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:52:57.179 -05:00 [DBG] Start token request.
+2019-09-27 16:52:57.182 -05:00 [DBG] Start client validation
+2019-09-27 16:52:57.184 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 16:52:57.187 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 16:52:57.226 -05:00 [DBG] No secret in post body found
+2019-09-27 16:52:57.229 -05:00 [DBG] Parser found no secret
+2019-09-27 16:52:57.246 -05:00 [ERR] No client identifier found
+2019-09-27 16:53:24.213 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 16:53:24.227 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 16:53:24.229 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 16:53:24.231 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 17:12:01.831 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:12:01.856 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:12:01.871 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:12:01.874 -05:00 [DBG] Start token request.
+2019-09-27 17:12:01.878 -05:00 [DBG] Start client validation
+2019-09-27 17:12:01.880 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 17:12:01.904 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 17:12:01.940 -05:00 [DBG] Secret id found: client
+2019-09-27 17:12:02.121 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 17:12:02.165 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 17:12:02.184 -05:00 [DBG] Client validation success
+2019-09-27 17:12:02.215 -05:00 [DBG] Start token request validation
+2019-09-27 17:12:02.231 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 17:12:02.249 -05:00 [DBG] client credentials token request validation success
+2019-09-27 17:12:02.261 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"customerApi productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials"},"$type":"TokenRequestValidationLog"}
+2019-09-27 17:12:02.267 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 17:12:02.280 -05:00 [DBG] Token request success.
+2019-09-27 17:12:03.524 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:12:03.544 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:12:03.553 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:12:03.592 -05:00 [DBG] Start token request.
+2019-09-27 17:12:03.607 -05:00 [DBG] Start client validation
+2019-09-27 17:12:03.609 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 17:12:03.612 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 17:12:03.632 -05:00 [DBG] Secret id found: client
+2019-09-27 17:12:03.649 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 17:12:03.681 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 17:12:03.698 -05:00 [DBG] Client validation success
+2019-09-27 17:12:03.713 -05:00 [DBG] Start token request validation
+2019-09-27 17:12:03.716 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 17:12:03.718 -05:00 [DBG] client credentials token request validation success
+2019-09-27 17:12:03.721 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"customerApi productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials"},"$type":"TokenRequestValidationLog"}
+2019-09-27 17:12:03.727 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 17:12:03.738 -05:00 [DBG] Token request success.
+2019-09-27 17:14:41.181 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:14:41.211 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:14:41.243 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:14:41.268 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 17:14:47.191 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:14:47.242 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:14:47.275 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:14:47.290 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 17:14:50.557 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:14:50.605 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:14:50.660 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:14:50.685 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 17:16:31.006 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:16:31.022 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:16:31.030 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:16:31.061 -05:00 [DBG] Start token request.
+2019-09-27 17:16:31.081 -05:00 [DBG] Start client validation
+2019-09-27 17:16:31.114 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 17:16:31.132 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 17:16:31.147 -05:00 [DBG] Secret id found: client
+2019-09-27 17:16:31.159 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 17:16:31.180 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 17:16:31.192 -05:00 [DBG] Client validation success
+2019-09-27 17:16:31.197 -05:00 [DBG] Start token request validation
+2019-09-27 17:16:31.200 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 17:16:31.203 -05:00 [DBG] client credentials token request validation success
+2019-09-27 17:16:31.204 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"customerApi productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials"},"$type":"TokenRequestValidationLog"}
+2019-09-27 17:16:31.215 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 17:16:31.223 -05:00 [DBG] Token request success.
+2019-09-27 17:16:51.491 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:16:51.528 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:16:51.532 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:16:51.561 -05:00 [DBG] Start token request.
+2019-09-27 17:16:51.563 -05:00 [DBG] Start client validation
+2019-09-27 17:16:51.565 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 17:16:51.569 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 17:16:51.572 -05:00 [DBG] Secret id found: client
+2019-09-27 17:16:51.586 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 17:16:51.588 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 17:16:51.591 -05:00 [DBG] Client validation success
+2019-09-27 17:16:51.593 -05:00 [DBG] Start token request validation
+2019-09-27 17:16:51.595 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 17:16:51.597 -05:00 [DBG] client credentials token request validation success
+2019-09-27 17:16:51.599 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"customerApi productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","audience":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-09-27 17:16:51.609 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 17:16:51.617 -05:00 [DBG] Token request success.
+2019-09-27 17:17:03.791 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:17:03.806 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:17:03.823 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:17:03.842 -05:00 [DBG] Start token request.
+2019-09-27 17:17:03.845 -05:00 [DBG] Start client validation
+2019-09-27 17:17:03.847 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 17:17:03.849 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 17:17:03.851 -05:00 [DBG] Secret id found: client
+2019-09-27 17:17:03.856 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 17:17:03.891 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 17:17:03.908 -05:00 [DBG] Client validation success
+2019-09-27 17:17:03.923 -05:00 [DBG] Start token request validation
+2019-09-27 17:17:03.940 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 17:17:03.944 -05:00 [DBG] client credentials token request validation success
+2019-09-27 17:17:03.946 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"customerApi productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","audience":"productAp"},"$type":"TokenRequestValidationLog"}
+2019-09-27 17:17:03.956 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 17:17:03.965 -05:00 [DBG] Token request success.
+2019-09-27 17:20:29.712 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:20:29.725 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:20:29.734 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:20:29.742 -05:00 [DBG] Start token request.
+2019-09-27 17:20:29.747 -05:00 [DBG] Start client validation
+2019-09-27 17:20:29.750 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 17:20:29.753 -05:00 [DBG] Start parsing for secret in post body
+2019-09-27 17:20:29.757 -05:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-27 17:20:29.760 -05:00 [DBG] Secret id found: client
+2019-09-27 17:20:29.767 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 17:20:29.775 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 17:20:29.781 -05:00 [DBG] Client validation success
+2019-09-27 17:20:29.785 -05:00 [DBG] Start token request validation
+2019-09-27 17:20:29.787 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 17:20:29.790 -05:00 [ERR] Requested scope not allowed: productAp
+2019-09-27 17:20:29.806 -05:00 [ERR] {"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"productAp","grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-09-27 17:21:58.243 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:21:58.250 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:21:58.257 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:21:58.260 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 17:22:54.760 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:22:54.794 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:22:54.823 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:22:54.832 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 17:23:00.916 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:23:00.930 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:23:00.937 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:23:00.940 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-09-27 17:23:06.687 -05:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-09-27 17:23:06.693 -05:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-09-27 17:23:06.696 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-09-27 17:23:06.703 -05:00 [DBG] Start discovery request
+2019-09-27 17:23:09.985 -05:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-09-27 17:23:09.995 -05:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-09-27 17:23:10.022 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-09-27 17:23:10.045 -05:00 [DBG] Start authorize request
+2019-09-27 17:23:10.101 -05:00 [DBG] No user present in authorize request
+2019-09-27 17:23:10.159 -05:00 [DBG] Start authorize request protocol validation
+2019-09-27 17:23:10.199 -05:00 [ERR] client_id is missing or too long
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{},"$type":"AuthorizeRequestValidationLog"}
+2019-09-27 17:23:10.212 -05:00 [ERR] Request validation failed
+2019-09-27 17:23:10.218 -05:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{},"$type":"AuthorizeRequestValidationLog"}
+2019-09-27 17:23:28.563 -05:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-09-27 17:23:28.584 -05:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-09-27 17:23:28.590 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-09-27 17:23:28.596 -05:00 [DBG] Start authorize request
+2019-09-27 17:23:28.600 -05:00 [DBG] No user present in authorize request
+2019-09-27 17:23:28.603 -05:00 [DBG] Start authorize request protocol validation
+2019-09-27 17:23:28.662 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 17:23:28.669 -05:00 [ERR] Invalid redirect_uri: http://localhost:7000/apiProduct/CustumerId
+{"ClientId":"client","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":[],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"response_type":"code","client_id":"client","redirect_uri":"http://localhost:7000/apiProduct/CustumerId","scope":"productApi"},"$type":"AuthorizeRequestValidationLog"}
+2019-09-27 17:23:28.702 -05:00 [ERR] Request validation failed
+2019-09-27 17:23:28.704 -05:00 [INF] {"ClientId":"client","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":[],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"response_type":"code","client_id":"client","redirect_uri":"http://localhost:7000/apiProduct/CustumerId","scope":"productApi"},"$type":"AuthorizeRequestValidationLog"}
+2019-09-27 17:23:58.334 -05:00 [DBG] Request path /connect/deviceauthorization matched to endpoint type DeviceAuthorization
+2019-09-27 17:23:58.346 -05:00 [DBG] Endpoint enabled: DeviceAuthorization, successfully created handler: IdentityServer4.Endpoints.DeviceAuthorizationEndpoint
+2019-09-27 17:23:58.352 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DeviceAuthorizationEndpoint for /connect/deviceauthorization
+2019-09-27 17:23:58.360 -05:00 [WRN] Invalid HTTP request for device authorize endpoint
+2019-09-27 17:23:58.362 -05:00 [ERR] Device authorization error: invalid_request:invalid_request
+2019-09-27 17:24:45.889 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:24:45.895 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:24:45.903 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:24:45.907 -05:00 [DBG] Start token request.
+2019-09-27 17:24:45.918 -05:00 [DBG] Start client validation
+2019-09-27 17:24:45.929 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 17:24:45.939 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 17:24:45.953 -05:00 [DBG] Secret id found: client
+2019-09-27 17:24:45.962 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 17:24:46.000 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 17:24:46.004 -05:00 [DBG] Client validation success
+2019-09-27 17:24:46.008 -05:00 [DBG] Start token request validation
+2019-09-27 17:24:46.017 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 17:24:46.020 -05:00 [DBG] client credentials token request validation success
+2019-09-27 17:24:46.023 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-09-27 17:24:46.035 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 17:24:46.049 -05:00 [DBG] Token request success.
+2019-09-27 17:25:02.496 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:25:02.500 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:25:02.503 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:25:02.505 -05:00 [DBG] Start token request.
+2019-09-27 17:25:02.511 -05:00 [DBG] Start client validation
+2019-09-27 17:25:02.513 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 17:25:02.516 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 17:25:02.517 -05:00 [DBG] Secret id found: client1
+2019-09-27 17:25:02.521 -05:00 [ERR] No client with id 'client1' found. aborting
+2019-09-27 17:25:17.238 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-27 17:25:17.245 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-27 17:25:17.250 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-27 17:25:17.256 -05:00 [DBG] Start token request.
+2019-09-27 17:25:17.259 -05:00 [DBG] Start client validation
+2019-09-27 17:25:17.263 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-09-27 17:25:17.268 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-09-27 17:25:17.275 -05:00 [DBG] Secret id found: client
+2019-09-27 17:25:17.282 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-09-27 17:25:17.291 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-09-27 17:25:17.300 -05:00 [DBG] Client validation success
+2019-09-27 17:25:17.303 -05:00 [DBG] Start token request validation
+2019-09-27 17:25:17.309 -05:00 [DBG] Start client credentials token request validation
+2019-09-27 17:25:17.312 -05:00 [DBG] client credentials token request validation success
+2019-09-27 17:25:17.314 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-09-27 17:25:17.327 -05:00 [DBG] Getting claims for access token for client: client
+2019-09-27 17:25:17.336 -05:00 [DBG] Token request success.

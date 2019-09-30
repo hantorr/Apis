@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using IdentityModel.Client;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using System.Threading.Tasks;
 
 namespace Client {
     class Program2 {

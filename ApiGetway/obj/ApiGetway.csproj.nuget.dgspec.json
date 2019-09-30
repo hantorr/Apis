@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj": {}
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj": {}
   },
   "projects": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj": {
+    "d:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj",
+        "projectUniqueName": "d:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj",
         "projectName": "ApiGetway",
-        "projectPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj",
+        "projectPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj",
         "packagesPath": "C:\\Users\\hantorr\\.nuget\\packages\\",
-        "outputPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\obj\\",
+        "outputPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
