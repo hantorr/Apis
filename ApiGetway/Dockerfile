@@ -7,11 +7,13 @@ EXPOSE 7000
 EXPOSE 7000
 
 FROM microsoft/dotnet:2.2-sdk-nanoserver-1803 AS build
-WORKDIR /src
-COPY ApiGetway/ApiGetway.csproj ApiGetway/
+#WORKDIR /src
+WORKDIR //Archivos/Hans/VSCODE/Apis/ApiGetway
+
+COPY /ApiGetway.csproj ApiGetway/
 RUN dotnet restore ApiGetway/ApiGetway.csproj
 COPY . .
-WORKDIR /src/ApiGetway
+WORKDIR //Archivos/Hans/VSCODE/Apis/ApiGetway
 RUN dotnet build ApiGetway.csproj -c Release -o /app
 
 FROM build AS publish
