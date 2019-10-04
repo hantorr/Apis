@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+
+  apigetway:
+    image: productApi
+    build:
+      context: . 
+      dockerfile: Dockerfile

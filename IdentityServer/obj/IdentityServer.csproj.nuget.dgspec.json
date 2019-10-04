@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj": {}
+    "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj": {}
   },
   "projects": {
-    "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj": {
+    "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj",
+        "projectUniqueName": "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj",
         "projectName": "IdentityServer",
-        "projectPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj",
+        "projectPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\IdentityServer.csproj",
         "packagesPath": "C:\\Users\\hantorr\\.nuget\\packages\\",
-        "outputPath": "d:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\obj\\",
+        "outputPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.4.10, )"
             },
             "Serilog": {
               "target": "Package",

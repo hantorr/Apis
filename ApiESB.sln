@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGetway", "ApiGetway\ApiGetway.csproj", "{796870C5-FBE0-487F-AD05-8B42F5DE42C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGetway", "ApiGetway\ApiGetway.csproj", "{796870C5-FBE0-487F-AD05-8B42F5DE42C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{F0D8F6DF-D631-40F2-BF08-546A6184438A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{F0D8F6DF-D631-40F2-BF08-546A6184438A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{9190EAAF-5BC7-4DA6-8672-29A06975C509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{9190EAAF-5BC7-4DA6-8672-29A06975C509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustumerApi", "CustumerApi\CustumerApi.csproj", "{C83965D4-673A-4763-A31B-C87E73240CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustumerApi", "CustumerApi\CustumerApi.csproj", "{C83965D4-673A-4763-A31B-C87E73240CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsApi", "ProductsApi\ProductsApi.csproj", "{4DD1DCB5-4560-47B9-81E1-32CF8EA6AC02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsApi", "ProductsApi\ProductsApi.csproj", "{4DD1DCB5-4560-47B9-81E1-32CF8EA6AC02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
