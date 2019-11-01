@@ -1,14 +1,12 @@
 version: "3.4"
 
-networks: 
-  apis:
 services:
   apigetway:
-    image: identiyApi
+    image: identiyapi
     build:
-     context: .
-     dockerfile: Dockerfile
-    ports:
-      - "5000:5000"
-    networks:
-      - apis
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+       - ./:/app/
+    
+  

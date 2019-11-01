@@ -1,25 +1,16 @@
 #Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
 #For more information, please see http://aka.ms/containercompat 
 
-FROM microsoft/dotnet:2.2-aspnetcore-runtime-nanoserver-1803 AS base
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /app
-EXPOSE 7000
-EXPOSE 7000
 
-FROM microsoft/dotnet:2.2-sdk-nanoserver-1803 AS build
-#WORKDIR /src
-WORKDIR //Archivos/Hans/VSCODE/Apis/ApiGetway
+COPY *.csproj ./
+RUN dotnet restore
 
-COPY /ApiGetway.csproj ApiGetway/
-RUN dotnet restore ApiGetway/ApiGetway.csproj
-COPY . .
-WORKDIR //Archivos/Hans/VSCODE/Apis/ApiGetway
-RUN dotnet build ApiGetway.csproj -c Release -o /app
+COPY . ./
+RUN dotnet publish -c Release -o out
 
-FROM build AS publish
-RUN dotnet publish ApiGetway.csproj -c Release -o /app
-
-FROM base AS final
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
 WORKDIR /app
-COPY --from=publish /app .
+COPY --from=build /app/out .
 ENTRYPOINT ["dotnet", "ApiGetway.dll"]

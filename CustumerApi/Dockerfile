@@ -1,23 +1,16 @@
 #Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
 #For more information, please see https://aka.ms/containercompat
 
-FROM microsoft/dotnet:2.2-aspnetcore-runtime-nanoserver-1803 AS base
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /app
-EXPOSE 5001
-EXPOSE 5001
 
-FROM microsoft/dotnet:2.2-sdk-nanoserver-1803 AS build
-WORKDIR /src
-COPY ["CustumerApi/CustumerApi.csproj", "CustumerApi/"]
-RUN dotnet restore "CustumerApi/CustumerApi.csproj"
-COPY . .
-WORKDIR "/src/CustumerApi"
-RUN dotnet build "CustumerApi.csproj" -c Release -o /app
+COPY *.csproj ./
+RUN dotnet restore
 
-FROM build AS publish
-RUN dotnet publish "CustumerApi.csproj" -c Release -o /app
+COPY . ./
+RUN dotnet publish -c Release -o out
 
-FROM base AS final
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
 WORKDIR /app
-COPY --from=publish /app .
+COPY --from=build /app/out .
 ENTRYPOINT ["dotnet", "CustumerApi.dll"]
