@@ -1,0 +1,14 @@
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.deps.json
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.runtimeconfig.json
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.runtimeconfig.dev.json
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.dll
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.pdb
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.csprojAssemblyReference.cache
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.csproj.CoreCompileInputs.cache
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorAssemblyInfo.cache
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorAssemblyInfo.cs
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.AssemblyInfoInputs.cache
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.AssemblyInfo.cs
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorTargetAssemblyInfo.cache
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.dll
+D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.pdb

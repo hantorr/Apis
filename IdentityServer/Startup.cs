@@ -3,9 +3,12 @@
 
 
 using System;
+using IdentityServer4.Configuration;
+using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 
 namespace IdentityServer
 {
@@ -21,18 +24,22 @@ namespace IdentityServer
         //Pasar como param los datos del clientID y Secret
         public void ConfigureServices(IServiceCollection services)
         {
+             var rsa = new RsaKeyService(Environment, TimeSpan.FromDays(30));
+                services.AddTransient<RsaKeyService>(provider => rsa);
+
             var builder = services.AddIdentityServer()
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetApis())
                 .AddInMemoryClients(Config.GetClients());
 
+            Environment.Equals(false);
             if (Environment.IsDevelopment())
             {
                 builder.AddDeveloperSigningCredential();
             }
             else
-            {
-                throw new Exception("need to configure key material");
+            { 
+                builder.AddSigningCredential(rsa.GetKey());
             }
         }
 
@@ -51,5 +58,6 @@ namespace IdentityServer
             // uncomment, if you want to add an MVC-based UI
             //app.UseMvcWithDefaultRoute();
         }
+
     }
 }

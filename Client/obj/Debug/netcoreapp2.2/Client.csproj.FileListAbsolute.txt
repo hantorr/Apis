@@ -1,0 +1,11 @@
+D:\PruebaConcepto\Apis\ApiESB\Client\obj\Debug\netcoreapp2.2\Client.csprojAssemblyReference.cache
+D:\PruebaConcepto\Apis\ApiESB\Client\obj\Debug\netcoreapp2.2\Client.csproj.CoreCompileInputs.cache
+D:\PruebaConcepto\Apis\ApiESB\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfoInputs.cache
+D:\PruebaConcepto\Apis\ApiESB\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfo.cs
+D:\PruebaConcepto\Apis\ApiESB\Client\obj\Debug\netcoreapp2.2\Client.dll
+D:\PruebaConcepto\Apis\ApiESB\Client\obj\Debug\netcoreapp2.2\Client.pdb
+D:\PruebaConcepto\Apis\ApiESB\Client\bin\Debug\netcoreapp2.2\Client.deps.json
+D:\PruebaConcepto\Apis\ApiESB\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.json
+D:\PruebaConcepto\Apis\ApiESB\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
+D:\PruebaConcepto\Apis\ApiESB\Client\bin\Debug\netcoreapp2.2\Client.dll
+D:\PruebaConcepto\Apis\ApiESB\Client\bin\Debug\netcoreapp2.2\Client.pdb
