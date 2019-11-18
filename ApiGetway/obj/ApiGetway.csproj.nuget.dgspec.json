@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj": {}
+    "E:\\Archivos Personales\\Hans\\VSCODE\\Apis\\ApiGetway\\ApiGetway.csproj": {}
   },
   "projects": {
-    "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj": {
+    "E:\\Archivos Personales\\Hans\\VSCODE\\Apis\\ApiGetway\\ApiGetway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj",
+        "projectUniqueName": "E:\\Archivos Personales\\Hans\\VSCODE\\Apis\\ApiGetway\\ApiGetway.csproj",
         "projectName": "ApiGetway",
-        "projectPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\ApiGetway.csproj",
-        "packagesPath": "C:\\Users\\hantorr\\.nuget\\packages\\",
-        "outputPath": "D:\\PruebaConcepto\\Apis\\ApiESB\\ApiGetway\\obj\\",
+        "projectPath": "E:\\Archivos Personales\\Hans\\VSCODE\\Apis\\ApiGetway\\ApiGetway.csproj",
+        "packagesPath": "C:\\Users\\hans.torres\\.nuget\\packages\\",
+        "outputPath": "E:\\Archivos Personales\\Hans\\VSCODE\\Apis\\ApiGetway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\hantorr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hans.torres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },

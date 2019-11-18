@@ -12,3 +12,17 @@ D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.Assemb
 D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.RazorTargetAssemblyInfo.cache
 D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.dll
 D:\PruebaConcepto\Apis\ApiESB\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.pdb
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.deps.json
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.runtimeconfig.json
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.runtimeconfig.dev.json
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.dll
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\bin\Debug\netcoreapp2.2\ApiGetway.pdb
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.csprojAssemblyReference.cache
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.csproj.CoreCompileInputs.cache
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.RazorAssemblyInfo.cache
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.RazorAssemblyInfo.cs
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.AssemblyInfoInputs.cache
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.AssemblyInfo.cs
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.RazorTargetAssemblyInfo.cache
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.dll
+e:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Debug\netcoreapp2.2\ApiGetway.pdb
