@@ -35,7 +35,8 @@ namespace IdentityServer
             Environment.Equals(false);
             if (Environment.IsDevelopment())
             {
-                builder.AddDeveloperSigningCredential();
+                builder.AddSigningCredential(rsa.GetKey());
+                //builder.AddDeveloperSigningCredential();
             }
             else
             { 

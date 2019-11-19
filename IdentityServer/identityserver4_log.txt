@@ -96,3 +96,229 @@
 2019-11-13 15:34:33.499 -05:00 [DBG] Consent Return Url Parameter: returnUrl
 2019-11-13 15:34:33.499 -05:00 [DBG] Error Url: /home/error
 2019-11-13 15:34:33.499 -05:00 [DBG] Error Id Parameter: errorId
+2019-11-18 15:59:37.090 -05:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-11-18 15:59:37.160 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-11-18 15:59:37.179 -05:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-11-18 15:59:37.194 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-11-18 15:59:37.197 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-11-18 15:59:37.198 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-11-18 15:59:37.199 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-11-18 15:59:37.200 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-11-18 15:59:37.312 -05:00 [WRN] Unable to bind to http://localhost:5000 on the IPv4 loopback interface: 'Intento de acceso a un socket no permitido por sus permisos de acceso'.
+2019-11-18 15:59:37.314 -05:00 [WRN] Unable to bind to http://localhost:5000 on the IPv6 loopback interface: 'Intento de acceso a un socket no permitido por sus permisos de acceso'.
+2019-11-18 15:59:37.334 -05:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address http://localhost:5000. ---> System.AggregateException: One or more errors occurred. (Intento de acceso a un socket no permitido por sus permisos de acceso) (Intento de acceso a un socket no permitido por sus permisos de acceso) ---> System.Net.Sockets.SocketException: Intento de acceso a un socket no permitido por sus permisos de acceso
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2019-11-18 16:34:53.896 -05:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-11-18 16:34:53.986 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-11-18 16:34:54.007 -05:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-11-18 16:34:54.009 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-11-18 16:34:54.014 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-11-18 16:34:54.016 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-11-18 16:34:54.017 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-11-18 16:34:54.018 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-11-18 16:35:19.497 -05:00 [DBG] Login Url: /Account/Login
+2019-11-18 16:35:19.500 -05:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-11-18 16:35:19.502 -05:00 [DBG] Logout Url: /Account/Logout
+2019-11-18 16:35:19.503 -05:00 [DBG] ConsentUrl Url: /consent
+2019-11-18 16:35:19.504 -05:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-11-18 16:35:19.506 -05:00 [DBG] Error Url: /home/error
+2019-11-18 16:35:19.507 -05:00 [DBG] Error Id Parameter: errorId
+2019-11-18 16:35:19.549 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:35:19.561 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:35:19.563 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:35:19.567 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-11-18 16:35:42.191 -05:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-11-18 16:35:42.199 -05:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-11-18 16:35:42.208 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-11-18 16:35:42.217 -05:00 [DBG] Start discovery request
+2019-11-18 16:35:42.393 -05:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-11-18 16:35:42.395 -05:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-11-18 16:35:42.397 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-11-18 16:35:42.404 -05:00 [DBG] Start key discovery request
+2019-11-18 16:35:52.751 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:35:52.754 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:35:52.756 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:35:52.758 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-11-18 16:36:22.046 -05:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-11-18 16:36:22.048 -05:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-11-18 16:36:22.052 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-11-18 16:36:22.055 -05:00 [DBG] Start discovery request
+2019-11-18 16:36:22.188 -05:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-11-18 16:36:22.189 -05:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-11-18 16:36:22.191 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-11-18 16:36:22.195 -05:00 [DBG] Start key discovery request
+2019-11-18 16:36:31.652 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:36:31.655 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:36:31.661 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:36:31.662 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-11-18 16:37:49.287 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:37:49.292 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:37:49.295 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:37:49.305 -05:00 [DBG] Start token request.
+2019-11-18 16:37:49.318 -05:00 [DBG] Start client validation
+2019-11-18 16:37:49.327 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-11-18 16:37:49.329 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-11-18 16:37:49.330 -05:00 [DBG] Secret id found: client
+2019-11-18 16:37:49.354 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-11-18 16:37:49.368 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-11-18 16:37:49.369 -05:00 [DBG] Client validation success
+2019-11-18 16:37:49.401 -05:00 [DBG] Start token request validation
+2019-11-18 16:37:49.412 -05:00 [DBG] Start client credentials token request validation
+2019-11-18 16:37:49.442 -05:00 [DBG] client credentials token request validation success
+2019-11-18 16:37:49.457 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-11-18 16:37:49.504 -05:00 [DBG] Getting claims for access token for client: client
+2019-11-18 16:37:49.581 -05:00 [DBG] Token request success.
+2019-11-18 16:37:58.997 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:37:59.000 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:37:59.001 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:37:59.003 -05:00 [DBG] Start token request.
+2019-11-18 16:37:59.004 -05:00 [DBG] Start client validation
+2019-11-18 16:37:59.007 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-11-18 16:37:59.009 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-11-18 16:37:59.010 -05:00 [DBG] Secret id found: client
+2019-11-18 16:37:59.012 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-11-18 16:37:59.014 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-11-18 16:37:59.016 -05:00 [DBG] Client validation success
+2019-11-18 16:37:59.018 -05:00 [DBG] Start token request validation
+2019-11-18 16:37:59.020 -05:00 [DBG] Start client credentials token request validation
+2019-11-18 16:37:59.021 -05:00 [DBG] client credentials token request validation success
+2019-11-18 16:37:59.023 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-11-18 16:37:59.029 -05:00 [DBG] Getting claims for access token for client: client
+2019-11-18 16:37:59.034 -05:00 [DBG] Token request success.
+2019-11-18 16:37:59.698 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:37:59.700 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:37:59.702 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:37:59.704 -05:00 [DBG] Start token request.
+2019-11-18 16:37:59.705 -05:00 [DBG] Start client validation
+2019-11-18 16:37:59.708 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-11-18 16:37:59.709 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-11-18 16:37:59.710 -05:00 [DBG] Secret id found: client
+2019-11-18 16:37:59.712 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-11-18 16:37:59.714 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-11-18 16:37:59.716 -05:00 [DBG] Client validation success
+2019-11-18 16:37:59.717 -05:00 [DBG] Start token request validation
+2019-11-18 16:37:59.719 -05:00 [DBG] Start client credentials token request validation
+2019-11-18 16:37:59.720 -05:00 [DBG] client credentials token request validation success
+2019-11-18 16:37:59.722 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-11-18 16:37:59.730 -05:00 [DBG] Getting claims for access token for client: client
+2019-11-18 16:37:59.735 -05:00 [DBG] Token request success.
+2019-11-18 16:38:00.329 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:38:00.332 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:38:00.333 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:38:00.335 -05:00 [DBG] Start token request.
+2019-11-18 16:38:00.336 -05:00 [DBG] Start client validation
+2019-11-18 16:38:00.338 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-11-18 16:38:00.342 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-11-18 16:38:00.344 -05:00 [DBG] Secret id found: client
+2019-11-18 16:38:00.345 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-11-18 16:38:00.346 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-11-18 16:38:00.348 -05:00 [DBG] Client validation success
+2019-11-18 16:38:00.350 -05:00 [DBG] Start token request validation
+2019-11-18 16:38:00.351 -05:00 [DBG] Start client credentials token request validation
+2019-11-18 16:38:00.352 -05:00 [DBG] client credentials token request validation success
+2019-11-18 16:38:00.354 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-11-18 16:38:00.359 -05:00 [DBG] Getting claims for access token for client: client
+2019-11-18 16:38:00.365 -05:00 [DBG] Token request success.
+2019-11-18 16:38:51.065 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:38:51.069 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:38:51.071 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:38:51.074 -05:00 [DBG] Start token request.
+2019-11-18 16:38:51.076 -05:00 [DBG] Start client validation
+2019-11-18 16:38:51.077 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-11-18 16:38:51.080 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-11-18 16:38:51.082 -05:00 [DBG] Secret id found: client
+2019-11-18 16:38:51.084 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-11-18 16:38:51.087 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-11-18 16:38:51.088 -05:00 [DBG] Client validation success
+2019-11-18 16:38:51.089 -05:00 [DBG] Start token request validation
+2019-11-18 16:38:51.090 -05:00 [DBG] Start client credentials token request validation
+2019-11-18 16:38:51.091 -05:00 [DBG] client credentials token request validation success
+2019-11-18 16:38:51.093 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-11-18 16:38:51.098 -05:00 [DBG] Getting claims for access token for client: client
+2019-11-18 16:38:51.104 -05:00 [DBG] Token request success.
+2019-11-18 16:38:51.868 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:38:51.872 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:38:51.874 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:38:51.876 -05:00 [DBG] Start token request.
+2019-11-18 16:38:51.877 -05:00 [DBG] Start client validation
+2019-11-18 16:38:51.879 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-11-18 16:38:51.881 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-11-18 16:38:51.882 -05:00 [DBG] Secret id found: client
+2019-11-18 16:38:51.884 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-11-18 16:38:51.887 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-11-18 16:38:51.889 -05:00 [DBG] Client validation success
+2019-11-18 16:38:51.891 -05:00 [DBG] Start token request validation
+2019-11-18 16:38:51.892 -05:00 [DBG] Start client credentials token request validation
+2019-11-18 16:38:51.893 -05:00 [DBG] client credentials token request validation success
+2019-11-18 16:38:51.895 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-11-18 16:38:51.901 -05:00 [DBG] Getting claims for access token for client: client
+2019-11-18 16:38:51.907 -05:00 [DBG] Token request success.
+2019-11-18 16:39:02.500 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:39:02.502 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:39:02.504 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:39:02.506 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-11-18 16:57:25.983 -05:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-11-18 16:57:26.076 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-11-18 16:57:26.094 -05:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-11-18 16:57:26.099 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-11-18 16:57:26.101 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-11-18 16:57:26.116 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-11-18 16:57:26.118 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-11-18 16:57:26.141 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-11-18 16:57:29.200 -05:00 [DBG] Login Url: /Account/Login
+2019-11-18 16:57:29.203 -05:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-11-18 16:57:29.216 -05:00 [DBG] Logout Url: /Account/Logout
+2019-11-18 16:57:29.219 -05:00 [DBG] ConsentUrl Url: /consent
+2019-11-18 16:57:29.232 -05:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-11-18 16:57:29.234 -05:00 [DBG] Error Url: /home/error
+2019-11-18 16:57:29.249 -05:00 [DBG] Error Id Parameter: errorId
+2019-11-18 16:57:29.324 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:57:29.338 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:57:29.348 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:57:29.358 -05:00 [WRN] Invalid HTTP request for token endpoint
+2019-11-18 16:57:43.537 -05:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-11-18 16:57:43.572 -05:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-11-18 16:57:43.575 -05:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-11-18 16:57:43.593 -05:00 [DBG] Start token request.
+2019-11-18 16:57:43.628 -05:00 [DBG] Start client validation
+2019-11-18 16:57:43.646 -05:00 [DBG] Start parsing Basic Authentication secret
+2019-11-18 16:57:43.647 -05:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-11-18 16:57:43.648 -05:00 [DBG] Secret id found: client
+2019-11-18 16:57:43.668 -05:00 [DBG] client configuration validation for client client succeeded.
+2019-11-18 16:57:43.693 -05:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-11-18 16:57:43.695 -05:00 [DBG] Client validation success
+2019-11-18 16:57:43.740 -05:00 [DBG] Start token request validation
+2019-11-18 16:57:43.749 -05:00 [DBG] Start client credentials token request validation
+2019-11-18 16:57:43.808 -05:00 [DBG] client credentials token request validation success
+2019-11-18 16:57:43.824 -05:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"productApi","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"productApi"},"$type":"TokenRequestValidationLog"}
+2019-11-18 16:57:43.887 -05:00 [DBG] Getting claims for access token for client: client
+2019-11-18 16:57:43.995 -05:00 [DBG] Token request success.
+2019-11-18 17:09:06.626 -05:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-11-18 17:09:06.686 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-11-18 17:09:06.709 -05:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-11-18 17:09:06.719 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-11-18 17:09:06.723 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-11-18 17:09:06.735 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-11-18 17:09:06.736 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-11-18 17:09:06.737 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
