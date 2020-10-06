@@ -26,3 +26,22 @@ E:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiG
 E:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.RazorTargetAssemblyInfo.cache
 E:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.dll
 E:\Archivos Personales\Hans\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.pdb
+E:\Desarrollo\VSCODE\Apis\ApiGetway\bin\Release\netcoreapp2.2\appsettings.Development.json
+E:\Desarrollo\VSCODE\Apis\ApiGetway\bin\Release\netcoreapp2.2\appsettings.json
+E:\Desarrollo\VSCODE\Apis\ApiGetway\bin\Release\netcoreapp2.2\configuration\configuration.json
+E:\Desarrollo\VSCODE\Apis\ApiGetway\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+E:\Desarrollo\VSCODE\Apis\ApiGetway\bin\Release\netcoreapp2.2\ApiGetway.deps.json
+E:\Desarrollo\VSCODE\Apis\ApiGetway\bin\Release\netcoreapp2.2\ApiGetway.runtimeconfig.json
+E:\Desarrollo\VSCODE\Apis\ApiGetway\bin\Release\netcoreapp2.2\ApiGetway.runtimeconfig.dev.json
+E:\Desarrollo\VSCODE\Apis\ApiGetway\bin\Release\netcoreapp2.2\ApiGetway.dll
+E:\Desarrollo\VSCODE\Apis\ApiGetway\bin\Release\netcoreapp2.2\ApiGetway.pdb
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.csprojAssemblyReference.cache
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.AssemblyInfoInputs.cache
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.AssemblyInfo.cs
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.csproj.CoreCompileInputs.cache
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.RazorAssemblyInfo.cache
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.RazorAssemblyInfo.cs
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.RazorTargetAssemblyInfo.cache
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.dll
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.pdb
+E:\Desarrollo\VSCODE\Apis\ApiGetway\obj\Release\netcoreapp2.2\ApiGetway.genruntimeconfig.cache

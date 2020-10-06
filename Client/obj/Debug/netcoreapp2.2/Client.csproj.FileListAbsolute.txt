@@ -9,3 +9,26 @@ D:\PruebaConcepto\Apis\ApiESB\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfi
 D:\PruebaConcepto\Apis\ApiESB\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
 D:\PruebaConcepto\Apis\ApiESB\Client\bin\Debug\netcoreapp2.2\Client.dll
 D:\PruebaConcepto\Apis\ApiESB\Client\bin\Debug\netcoreapp2.2\Client.pdb
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.deps.json
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.json
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.dll
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.pdb
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.csprojAssemblyReference.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.csproj.CoreCompileInputs.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfoInputs.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfo.cs
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.dll
+E:\Archivos Personales\Hans\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.pdb
+E:\Desarrollo\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.deps.json
+E:\Desarrollo\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.json
+E:\Desarrollo\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
+E:\Desarrollo\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.dll
+E:\Desarrollo\VSCODE\Apis\Client\bin\Debug\netcoreapp2.2\Client.pdb
+E:\Desarrollo\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.csprojAssemblyReference.cache
+E:\Desarrollo\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfoInputs.cache
+E:\Desarrollo\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfo.cs
+E:\Desarrollo\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.csproj.CoreCompileInputs.cache
+E:\Desarrollo\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.dll
+E:\Desarrollo\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.pdb
+E:\Desarrollo\VSCODE\Apis\Client\obj\Debug\netcoreapp2.2\Client.genruntimeconfig.cache

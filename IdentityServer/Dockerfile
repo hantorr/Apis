@@ -3,7 +3,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /app
 
-COPY *.csproj ./-
+COPY *.csproj ./
 RUN dotnet restore
 
 COPY . ./

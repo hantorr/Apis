@@ -1,8 +1,7 @@
 version: "3.5"
 
 services:
-
-  apigetway:
+  customerapi:
     image: customerapi
     build:
       context: . 

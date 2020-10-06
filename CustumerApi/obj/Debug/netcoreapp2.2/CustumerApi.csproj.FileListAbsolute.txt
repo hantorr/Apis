@@ -12,3 +12,35 @@ D:\PruebaConcepto\Apis\ApiESB\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.As
 D:\PruebaConcepto\Apis\ApiESB\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.RazorTargetAssemblyInfo.cache
 D:\PruebaConcepto\Apis\ApiESB\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.dll
 D:\PruebaConcepto\Apis\ApiESB\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.pdb
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.deps.json
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.runtimeconfig.json
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.runtimeconfig.dev.json
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.dll
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.pdb
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.csprojAssemblyReference.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.csproj.CoreCompileInputs.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.RazorAssemblyInfo.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.RazorAssemblyInfo.cs
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.AssemblyInfoInputs.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.AssemblyInfo.cs
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.RazorTargetAssemblyInfo.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.dll
+E:\Archivos Personales\Hans\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.pdb
+E:\Desarrollo\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Desarrollo\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Desarrollo\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Desarrollo\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.deps.json
+E:\Desarrollo\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.runtimeconfig.json
+E:\Desarrollo\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.runtimeconfig.dev.json
+E:\Desarrollo\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.dll
+E:\Desarrollo\VSCODE\Apis\CustumerApi\bin\Debug\netcoreapp2.2\CustumerApi.pdb
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.csprojAssemblyReference.cache
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.AssemblyInfoInputs.cache
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.AssemblyInfo.cs
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.csproj.CoreCompileInputs.cache
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.RazorAssemblyInfo.cache
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.RazorAssemblyInfo.cs
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.RazorTargetAssemblyInfo.cache
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.dll
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.pdb
+E:\Desarrollo\VSCODE\Apis\CustumerApi\obj\Debug\netcoreapp2.2\CustumerApi.genruntimeconfig.cache

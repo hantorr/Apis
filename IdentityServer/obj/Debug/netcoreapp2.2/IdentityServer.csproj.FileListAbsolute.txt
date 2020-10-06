@@ -12,3 +12,34 @@ D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentitySer
 D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorTargetAssemblyInfo.cache
 D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.dll
 D:\PruebaConcepto\Apis\ApiESB\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.pdb
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.deps.json
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.runtimeconfig.json
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.runtimeconfig.dev.json
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.dll
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.pdb
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.csprojAssemblyReference.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.csproj.CoreCompileInputs.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorAssemblyInfo.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorAssemblyInfo.cs
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.AssemblyInfoInputs.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.AssemblyInfo.cs
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorTargetAssemblyInfo.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.dll
+E:\Archivos Personales\Hans\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.pdb
+E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\rsakey.json
+E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.deps.json
+E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.runtimeconfig.json
+E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.runtimeconfig.dev.json
+E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.dll
+E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.pdb
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.csprojAssemblyReference.cache
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.AssemblyInfoInputs.cache
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.AssemblyInfo.cs
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.csproj.CoreCompileInputs.cache
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorAssemblyInfo.cache
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorAssemblyInfo.cs
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.RazorTargetAssemblyInfo.cache
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.dll
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.pdb
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.genruntimeconfig.cache

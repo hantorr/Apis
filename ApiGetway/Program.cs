@@ -6,27 +6,35 @@ using Microsoft.Extensions.DependencyInjection;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Hosting;
 
-namespace ApiGetway {
-    public class Program {
-        public static void Main (string[] args) {
-            CreateWebHostBuilder(args).Run();
+namespace ApiGetway
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            //CreateWebHostBuilder(args).Run();
+            CreateWebHost(args).Run();
         }
 
-        public static IWebHost CreateWebHostBuilder(string[] args) {
+        public static IWebHost CreateWebHostBuilder(string[] args)
+        {
 
             IWebHostBuilder builder = WebHost.CreateDefaultBuilder(args);
 
-            builder.UseKestrel ()
-                .UseContentRoot (Directory.GetCurrentDirectory ())
-                .ConfigureAppConfiguration ((hostingContext, config) => {
+            builder.UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
                     config
-                        .SetBasePath (hostingContext.HostingEnvironment.ContentRootPath)
-                        .AddJsonFile (Path.Combine ("configuration", "configuration.json"))
-                        .AddEnvironmentVariables ();
+                        .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
+                        .AddJsonFile(Path.Combine("configuration", "configuration.json"))
+                        .AddEnvironmentVariables();
                 })
-                .ConfigureServices (s => {
-                    s.AddOcelot ();
+                .ConfigureServices(s =>
+                {
+                    s.AddOcelot();
                 })
                  .ConfigureLogging((hostingContext, loggingbuilder) =>
                 {
@@ -34,14 +42,47 @@ namespace ApiGetway {
                     loggingbuilder.AddConsole();
                     loggingbuilder.AddDebug();
                 })
-                .UseIISIntegration ()
-                .Configure (app => {
-                    app.UseOcelot ().Wait ();
+                .UseIISIntegration()
+                .Configure(app =>
+                {
+                    app.UseOcelot().Wait();
                 });
             IWebHost host = builder.Build();
             return host;
         }
 
+        public static IWebHost CreateWebHost(string[] args)
+        {
+
+            IWebHostBuilder builder = WebHost.CreateDefaultBuilder(args);
+
+            builder.UseIIS()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
+                    config
+                        .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
+                        .AddJsonFile(Path.Combine("configuration", "configuration.json"))
+                        .AddEnvironmentVariables();
+                })
+                .ConfigureServices(s =>
+                {
+                    s.AddOcelot();
+                })
+                 .ConfigureLogging((hostingContext, loggingbuilder) =>
+                 {
+                     loggingbuilder.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                     loggingbuilder.AddConsole();
+                     loggingbuilder.AddDebug();
+                 })
+                .UseIISIntegration()
+                .Configure(app =>
+                {
+                    app.UseOcelot().Wait();
+                });
+            IWebHost host = builder.Build();
+            return host;
+        }
 
     }
 }

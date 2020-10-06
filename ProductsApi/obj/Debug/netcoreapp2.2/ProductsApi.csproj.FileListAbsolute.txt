@@ -12,3 +12,35 @@ D:\PruebaConcepto\Apis\ApiESB\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.As
 D:\PruebaConcepto\Apis\ApiESB\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.RazorTargetAssemblyInfo.cache
 D:\PruebaConcepto\Apis\ApiESB\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.dll
 D:\PruebaConcepto\Apis\ApiESB\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.pdb
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.deps.json
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.runtimeconfig.json
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.runtimeconfig.dev.json
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.dll
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.pdb
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.csprojAssemblyReference.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.csproj.CoreCompileInputs.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.RazorAssemblyInfo.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.RazorAssemblyInfo.cs
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.AssemblyInfoInputs.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.AssemblyInfo.cs
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.RazorTargetAssemblyInfo.cache
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.dll
+E:\Archivos Personales\Hans\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.pdb
+E:\Desarrollo\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Desarrollo\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Desarrollo\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Desarrollo\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.deps.json
+E:\Desarrollo\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.runtimeconfig.json
+E:\Desarrollo\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.runtimeconfig.dev.json
+E:\Desarrollo\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.dll
+E:\Desarrollo\VSCODE\Apis\ProductsApi\bin\Debug\netcoreapp2.2\ProductsApi.pdb
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.csprojAssemblyReference.cache
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.AssemblyInfoInputs.cache
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.AssemblyInfo.cs
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.csproj.CoreCompileInputs.cache
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.RazorAssemblyInfo.cache
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.RazorAssemblyInfo.cs
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.RazorTargetAssemblyInfo.cache
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.dll
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.pdb
+E:\Desarrollo\VSCODE\Apis\ProductsApi\obj\Debug\netcoreapp2.2\ProductsApi.genruntimeconfig.cache
