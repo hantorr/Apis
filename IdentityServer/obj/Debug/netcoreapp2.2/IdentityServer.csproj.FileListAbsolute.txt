@@ -33,7 +33,6 @@ E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.
 E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.runtimeconfig.dev.json
 E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.dll
 E:\Desarrollo\VSCODE\Apis\IdentityServer\bin\Debug\netcoreapp2.2\IdentityServer.pdb
-E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.csprojAssemblyReference.cache
 E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.AssemblyInfoInputs.cache
 E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.AssemblyInfo.cs
 E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.csproj.CoreCompileInputs.cache
@@ -43,3 +42,4 @@ E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.
 E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.dll
 E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.pdb
 E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.genruntimeconfig.cache
+E:\Desarrollo\VSCODE\Apis\IdentityServer\obj\Debug\netcoreapp2.2\IdentityServer.csprojAssemblyReference.cache

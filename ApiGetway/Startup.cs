@@ -62,7 +62,7 @@ namespace ApiGetway
 
             services.Configure<IISOptions>(options =>
                 {
-                    options.ForwardClientCertificate = false:
+                    options.ForwardClientCertificate = false;
                 }
                 );
 

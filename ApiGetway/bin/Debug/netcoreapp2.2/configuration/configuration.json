@@ -35,17 +35,20 @@
                 "Get"
             ]
         },
-        {
-            "DownstreamPathTemplate": "/connect/token",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-              {
-                "Host": "localhost",
-                "Port": 5000
-              }
-            ],
-            "UpstreamPathTemplate": "/connect/{AUTH}"
-          }    
+      {
+        "DownstreamPathTemplate": "/connect/token",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5000
+          }
+        ],
+        "UpstreamPathTemplate": "/connect/{AUTH}",
+          "UpstreamHttpMethod": [
+            "Post"
+          ]
+      }    
     ],
     "GlobalcConfiguration": {
         "RequestIdKey": "OcRequestId",
