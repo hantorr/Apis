@@ -30,8 +30,8 @@ namespace ApiGetway
                       .AllowCredentials());
               });
             services.AddAuthentication("Bearer")
-              .AddJwtBearer("Bearer", x =>
-              {
+           .AddJwtBearer("Bearer", x =>
+           {
                   x.Authority = identityUrl;
                   x.RequireHttpsMetadata = false;
                   x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()

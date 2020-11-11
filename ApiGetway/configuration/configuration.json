@@ -1,57 +1,57 @@
 {
-    "ReRoutes": [
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Esb/TaxId",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
         {
-            "DownstreamPathTemplate": "/Esb/TaxId",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5001
-                }
-            ],
-            "UpstreamPathTemplate": "/apiCustumer/DocId",
-            "UpstreamHttpMethod": [
-                "Get"
-            ],
-            "RateLimitOptions": {
-                "ClientWhitelist": [],
-                "EnableRateLimiting": true,
-                "Period": "1s",
-                "PeriodTimespan": 1,
-                "Limit": 1
-            }
-        },
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/apiCustumer/DocId",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/Esb/CustumerId",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
         {
-            "DownstreamPathTemplate": "/Esb/CustumerId",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5002
-                }
-            ],
-            "UpstreamPathTemplate": "/apiProduct/CustumerId",
-            "UpstreamHttpMethod": [
-                "Get"
-            ]
-        },
-      {
-        "DownstreamPathTemplate": "/connect/token",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "localhost",
-            "Port": 5000
-          }
-        ],
-        "UpstreamPathTemplate": "/connect/{AUTH}",
-          "UpstreamHttpMethod": [
-            "Post"
-          ]
-      }    
-    ],
-    "GlobalcConfiguration": {
-        "RequestIdKey": "OcRequestId",
-        "AdministrationPath": "/administration"
+          "Host": "localhost",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/apiProduct/CustumerId",
+      "UpstreamHttpMethod": [
+        "Get"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/connect/token",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/connect/{AUTH}",
+      "UpstreamHttpMethod": [
+        "Post"
+      ]
     }
+  ],
+  "GlobalcConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration"
+  }
 }
