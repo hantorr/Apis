@@ -17,6 +17,13 @@ namespace IdentityServer
             };
         }
 
+        public static IEnumerable<ApiScope> ApiScopes =>
+        new List<ApiScope>
+        {
+              new ApiScope("customerApi", "Api Customer"),
+              new ApiScope("productApi", "Api Product")
+        };
+
         public static IEnumerable<ApiResource> GetApis()
         {
             // tabla Apis
@@ -46,13 +53,13 @@ namespace IdentityServer
                         },
                         AllowAccessTokensViaBrowser = true,
                         // scopes that client has access to
-                        AllowedScopes = 
-                        { 
+                        AllowedScopes =
+                        {
                           "customerApi",
                           "productApi"
                         }
                     }
             };
-       }
+        }
     }
 }

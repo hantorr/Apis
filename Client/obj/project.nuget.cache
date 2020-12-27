@@ -1,19 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Vp07iRORjq5U8y3nCjJhdchrd2R3O6HaEauCYcHwvphHB/mGnPCN0obWTgNpPLmdktHB2GQeRY0pk7MeV3XtPw==",
+  "dgSpecHash": "GrJcqRCI6AHtMYafbjUfgJG7lsUmBaOJRpPGtWBmKvI2OXkmnQ8XxEvMwAaD+qYPTv7Ff5wOsQktwpBYUOF6HQ==",
   "success": true,
   "projectFilePath": "E:\\Desarrollo\\VSCODE\\Apis\\Client\\Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hans.torres\\.nuget\\packages\\identitymodel\\3.10.0\\identitymodel.3.10.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
-    "C:\\Users\\hans.torres\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\hans.torres\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\HANS8\\.nuget\\packages\\identitymodel\\3.10.0\\identitymodel.3.10.0.nupkg.sha512",
+    "C:\\Users\\HANS8\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\HANS8\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -31,9 +31,7 @@
         }
       ],
       "UpstreamPathTemplate": "/apiProduct/CustumerId",
-      "UpstreamHttpMethod": [
-        "Get"
-      ]
+      "UpstreamHttpMethod": [ "Get" ]
     },
     {
       "DownstreamPathTemplate": "/connect/token",

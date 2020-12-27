@@ -10,15 +10,14 @@
         "projectUniqueName": "E:\\Desarrollo\\VSCODE\\Apis\\ApiGetway\\ApiGetway.csproj",
         "projectName": "ApiGetway",
         "projectPath": "E:\\Desarrollo\\VSCODE\\Apis\\ApiGetway\\ApiGetway.csproj",
-        "packagesPath": "C:\\Users\\hans.torres\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\HANS8\\.nuget\\packages\\",
         "outputPath": "E:\\Desarrollo\\VSCODE\\Apis\\ApiGetway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\hans.torres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HANS8\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -31,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "IdentityServer4": {
               "target": "Package",
@@ -91,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

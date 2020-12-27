@@ -24,22 +24,23 @@ namespace IdentityServer
         //Pasar como param los datos del clientID y Secret
         public void ConfigureServices(IServiceCollection services)
         {
-             var rsa = new RsaKeyService(Environment, TimeSpan.FromDays(30));
+            var rsa = new RsaKeyService(Environment, TimeSpan.FromDays(30));
                 services.AddTransient<RsaKeyService>(provider => rsa);
 
             var builder = services.AddIdentityServer()
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
+                .AddInMemoryApiScopes(Config.ApiScopes)
                 .AddInMemoryApiResources(Config.GetApis())
                 .AddInMemoryClients(Config.GetClients());
 
             Environment.Equals(false);
             if (Environment.IsDevelopment())
             {
-                builder.AddDeveloperSigningCredential();
+                builder.AddSigningCredential(rsa.GetKey(), IdentityServer4.IdentityServerConstants.RsaSigningAlgorithm.RS256);
             }
             else
             { 
-                builder.AddSigningCredential(rsa.GetKey());
+                builder.AddSigningCredential(rsa.GetKey(), IdentityServer4.IdentityServerConstants.RsaSigningAlgorithm.RS256);
             }
         }
 
@@ -54,6 +55,7 @@ namespace IdentityServer
             //app.UseStaticFiles();
 
             app.UseIdentityServer();
+          
 
             // uncomment, if you want to add an MVC-based UI
             //app.UseMvcWithDefaultRoute();

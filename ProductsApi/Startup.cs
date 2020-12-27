@@ -19,9 +19,7 @@ namespace ProductsApi {
 
         public void ConfigureServices (IServiceCollection services) {
 
-            services.AddMvcCore ()
-                .AddAuthorization ()
-                .AddJsonFormatters ();
+            services.AddMvcCore(options => options.EnableEndpointRouting = false);
             
             services.AddCors (options => {
                 options.AddPolicy ("CorsPolicy",
@@ -38,8 +36,8 @@ namespace ProductsApi {
 
         public void Configure (IApplicationBuilder app) {
             app.UseAuthentication ();
-
-            app.UseMvc ();
+            
+            app.UseMvc();
         }
 
         private void ConfigureAuthService (IServiceCollection services) {

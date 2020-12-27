@@ -16,7 +16,7 @@ namespace Client {
             HttpClient client = new HttpClient ();
             var tokenResponse = await client.RequestClientCredentialsTokenAsync(new ClientCredentialsTokenRequest
             {
-                Address = "http://localhost:7000/connect/token",
+                Address = "http://localhost:5000/connect/token",
                 ClientId = "client",
                 ClientSecret = "secret",
 
