@@ -23,6 +23,7 @@ namespace ApiGetway
             services.AddCors(options =>
               {
                   options.AddPolicy("CorsPolicy",
+
                       builder => builder
                       .AllowAnyMethod()
                       .AllowAnyHeader()
